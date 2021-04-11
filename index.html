@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journal</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI0AAACTAAAAgQAAAHIAAABlAAAAXAAAAFYAAABTAAAAUgAAAFUAAABbAAAAZAAAAHAAAAB/AAAAkQAAAJnJycnW/////8fHx/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8ICAj/1tbW//////8AAADk4ODg0//////////////////////b29v/4eHh/7e3t//b29v/uLi4/9PT0///////////////////////AAAA2d/f39H////////////////////////////////e3t7//////////////////////////////////////wAAAM7e3t7P////////////////////////////////39/f//////////////////////////////////////8AAADD29vbz////////////////////////////////+Hh4f//////////////////////////////////////AAAAuNfX19H////////////////////////////////i4uL//////////////////////////////////////wAAALDR0dHW////////////////////////////////5OTk//////////////////////////////////////8AAACqx8fH3v///////////////////////////////+Xl5f//////////////////////////////////////AAAAp3t7e+r////////////////////////////////m5ub//////////////////////////////////////wAAAKgAAAAsAAAARgAAAH/Pz8/a////////////////f39/8ff39/7////////////////AwMDxAAAAqAAAAG0AAAA8AAAAAAAAAAAAAAAAAAAAAwAAAFJERESbAAAAewAAABMAAABCn5+fk4CAgJMAAABXAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAHAAD//wAA//8AAA==" rel="icon" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h3>Contents</h3>
+      <nav>
+        <ul>
+          <li><a href="#4/8">4/8</a></li>
+          <li><a href="#4/9">4/9</a></li>
+          <li><a href="#4/10">4/10</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Journal</h1>
+      <img
+        src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFuY2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+        alt="pancake"
+        width="250"
+      />
+      <h2 id="4/8">4/8</h2>
+      <section>
+        <h3>Highlights of the Day</h3>
+        <ul>
+            <li> Ate pancakes, my <i>favorite</i> food</li>
+            <li> Called my friends</li>
+            <li> Got an A on a Lab</li>
+        </ul>
+      </section>
+      <section>
+      <h3>To Do List</h3>
+      <ol>
+        <li><input type="checkbox" /> <em>STUDY FOR QUIZ</em></li>
+        <li><input type="checkbox" /> Finish Homework</li>
+        <li><input type="checkbox" /> Buy Milk</li>
+        <li><input type="checkbox" /> Do Laundry</li>
+      </ol>
+    </section>
+      <hr>
+      <h2 id="4/9">4/9</h2>
+      <h3>Summary of my Picnic on the Beach</h3>
+      <p>
+        Today I brought a sandwich to the beach, thinking I could relax in the sun for an hour before studying for my quiz. Little did I know, sharks love peanut butter, and a great white lept out of the ocean towards me. Luckily, I had <b class="term">Professors Powell's</b> spinning beach ball of <strong>death</strong>, and I spiked the ball straight into the shark's face, bouncing it 50 kilometers back into the ocean.
+
+      </p>
+      <hr>
+      <h2 id="4/10"> 4/10</h2>
+      <h3>Good Song I Listened To</h3>
+      <figure>
+          <figcaption>Listen to this!:</figcaption>
+          <audio
+            controls
+            src="assets/Chug Jug With You.mp3">
+                Your browser does not support the
+                <code>audio</code> element.
+        </audio>
+      </figure>
+      <details>
+          <summary>Disclaimer</summary>
+          I don't actually like this song.
+      </details>
+      <h3>Funny Video I Watched</h3>
+      <video controls width="250">
+            <source src="assets/Fan confuses DaBaby with Roddy Ricch.mp4"
+                type="video/mp4">
+            Sorry, your browser doesn't support embedded videos.
+      </video>
+      
+    </main>
+    <hr />
+    <footer>
+      <h3>Add Another Journal Entry</h3>
+      <form onsubmit="alert('Done!')">
+        <fieldset>
+            <legend>Day of the Week</legend>
+            <input type="radio" id="sunday" name="day">
+            <label for="sunday">Sunday</label><br/>
+            <input type="radio" id="monday" name="day">
+            <label for="monday">Monday</label><br/>            
+            <input type="radio" id="tuesday" name="day">
+            <label for="tuesday">Tuesday</label><br/>            
+            <input type="radio" id="wednesday" name="day">
+            <label for="wednesday">Wednesday</label><br/>            
+            <input type="radio" id="thursday" name="day">
+            <label for="thursday">Thursday</label><br/>            
+            <input type="radio" id="friday" name="day">
+            <label for="friday">Friday</label><br/>            
+            <input type="radio" id="saturday" name="day">
+            <label for="saturday">Saturday</label><br/>
+        </fieldset>
+        <label for="story">Summarize your day:</label><br>
+
+        <textarea id="story" name="story" rows="5" cols="33">Write your summary here</textarea><br>
+        <label for="quality">How was your day?</label>
+        <input list="quality-list" id="quality" name="quality"/>
+        <datalist id="quality-list">
+            <option value="Bad"></option>
+            <option value="Okay"></option>
+            <option value="Good"></option>
+        </datalist><br/>
+        <label for="workout">What did you workout:</label>
+        <select name="work-out" id="workout">
+            <option value="">--Please choose an option--</option>
+            <option value="pushups">Pushups</option>
+            <option value="situps">Situps</option>
+            <option value="run">Run</option>
+            <option value="bike">Bike</option>
+            <option value="weights">Weights</option>
+        </select><br/>  
+        <div> Daily Chore Checkbox</div>
+        <input type="checkbox" id="dishes" name="dishes" value="Dishes">
+        <label for="dishes"> I washed the dishes</label><br/>
+        <input type="checkbox" id="cook" name="cook" value="Cook">
+        <label for="cook"> I cooked dinner</label><br/>
+        <input type="checkbox" id="feed" name="feed" value="Feed">
+        <label for="feed"> I fed the cats</label><br/>
+        <br/>
+        <input type="text" placeholder="Enter Email Address" />
+        <button>Submit</button>
+      </form>
+      <br />
+      <div>Made by Michael Mao, </div>
+    </footer>
+  </body>
+</html>
