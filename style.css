@@ -115,9 +115,11 @@ footer > #activebutton:active{
     background-color: black;
 }
 
-ul[type="A"] {
-    list-style-type: lower-alpha;
-    background: rgb(80, 86, 182);
+div[lang|="zh-CN"]{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 1cm;
+    color:rgb(231, 81, 231);
 }
 
 footer > #hoverbutton, #activebutton {
@@ -138,4 +140,8 @@ div ~ label {
 
 #ulday1 > li:first-of-type + li{
     color: red;
+}
+
+#pancakes {
+    display: inline;
 }
