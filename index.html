@@ -5,9 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Journal</title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI0AAACTAAAAgQAAAHIAAABlAAAAXAAAAFYAAABTAAAAUgAAAFUAAABbAAAAZAAAAHAAAAB/AAAAkQAAAJnJycnW/////8fHx/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8ICAj/1tbW//////8AAADk4ODg0//////////////////////b29v/4eHh/7e3t//b29v/uLi4/9PT0///////////////////////AAAA2d/f39H////////////////////////////////e3t7//////////////////////////////////////wAAAM7e3t7P////////////////////////////////39/f//////////////////////////////////////8AAADD29vbz////////////////////////////////+Hh4f//////////////////////////////////////AAAAuNfX19H////////////////////////////////i4uL//////////////////////////////////////wAAALDR0dHW////////////////////////////////5OTk//////////////////////////////////////8AAACqx8fH3v///////////////////////////////+Xl5f//////////////////////////////////////AAAAp3t7e+r////////////////////////////////m5ub//////////////////////////////////////wAAAKgAAAAsAAAARgAAAH/Pz8/a////////////////f39/8ff39/7////////////////AwMDxAAAAqAAAAG0AAAA8AAAAAAAAAAAAAAAAAAAAAwAAAFJERESbAAAAewAAABMAAABCn5+fk4CAgJMAAABXAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAHAAD//wAA//8AAA==" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   </head>
+
+  <style>
+    header{
+      font-size: 0.5cm;
+      color:black
+      
+    }
+
+    p.ex1 {
+      display: inline;
+    }
+
+  </style>
+
+
   <body>
     <header>
+      <div class="flex-container">
+        <div>Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+      </div>
       <h3>Contents</h3>
       <nav>
         <ul>
@@ -18,59 +44,85 @@
       </nav>
     </header>
     <main>
-      <h1>Journal</h1>
-      <img
+      <h1 style="text-align: center;">Journal</h1>
+      <div style="text-align: center;">
+      <img  
         src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFuY2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
         alt="pancake"
         width="250"
       />
-      <h2 id="4/8">4/8</h2>
-      <section>
-        <h3>Highlights of the Day</h3>
-        <ul>
-            <li> Ate pancakes, my <i>favorite</i> food</li>
-            <li> Called my friends</li>
-            <li> Got an A on a Lab</li>
-        </ul>
-      </section>
-      <section>
-      <h3>To Do List</h3>
-      <ol>
-        <li><input type="checkbox" /> <em>STUDY FOR QUIZ</em></li>
-        <li><input type="checkbox" /> Finish Homework</li>
-        <li><input type="checkbox" /> Buy Milk</li>
-        <li><input type="checkbox" /> Do Laundry</li>
-      </ol>
-    </section>
-      <hr>
-      <h2 id="4/9">4/9</h2>
-      <h3>Summary of my Picnic on the Beach</h3>
-      <p>
-        Today I brought a sandwich to the beach, thinking I could relax in the sun for an hour before studying for my quiz. Little did I know, sharks love peanut butter, and a great white lept out of the water towards me. Luckily, I had <b class="term">Professors Powell's</b> spinning beach ball of <strong>death</strong>, and I spiked the ball straight into the shark's face, bouncing it 50 kilometers back into the ocean.
+      </div>
 
-      </p>
+      <div id="day1">
+        <h2 id="4/8">4/8</h2>
+        <section>
+          <h3>Highlights of the Day</h3>
+          <ul>
+              <li> Ate pancakes, my <i>favorite</i> food</li>
+              <li> Called my friends</li>
+              <li> Got an A on a Lab</li>
+          </ul>
+        </section>
+        <section>
+        <h3>To Do List</h3>
+        <ol>
+          <li><input type="checkbox" /> <em>STUDY FOR QUIZ</em></li>
+          <li><input type="checkbox" /> Finish Homework</li>
+          <li><input type="checkbox" /> Buy Milk</li>
+          <li><input type="checkbox" /> Do Laundry</li>
+        </ol>
+        </section>
+      </div>
       <hr>
-      <h2 id="4/10"> 4/10</h2>
-      <h3>Good Song I Listened To</h3>
-      <figure>
-          <figcaption>Listen to this!:</figcaption>
-          <audio controls src="assets/ChugJug.mp3">
-                Your browser does not support the
-                <code>audio</code> element.
-        </audio>
-      </figure>
-      <details>
-          <summary>Disclaimer</summary>
-          I don't actually like this song.
-      </details>
-      <h3>Funny Video I Watched</h3>
-      <video controls width="250">
-            <source src="assets/DaBaby.mp4" type="video/mp4">
-            Sorry, your browser doesn't support embedded videos.
-      </video>
+
+      <div id="day2">
+        <h2 id="4/9">4/9</h2>
+        <h3>Summary of my Picnic on the Beach</h3>
+        <p>
+          Today I brought a sandwich to the beach, thinking I could relax in the sun for an hour before studying for my quiz. Little did I know, sharks love peanut butter, and a great white lept out of the water towards me. Luckily, I had <b class="term">Professors Powell's</b> spinning beach ball of <strong>death</strong>, and I spiked the ball straight into the shark's face, bouncing it 50 kilometers back into the ocean.
+
+        </p>
+        <span id="tic">Exciting tic-tac-toe game I played <p class="ex1"> and tied </p>against a friend.</span>
+        <div class="grid-container">
+          <div class="grid-item">X</div>
+          <div class="grid-item">O</div>
+          <div class="grid-item">X</div>
+          <div class="grid-item">O</div>
+          <div class="grid-item">O</div>
+          <div class="grid-item">X</div>
+          <div class="grid-item">X</div>
+          <div class="grid-item">X</div>
+          <div class="grid-item">O</div>
+
+
+        </div> 
+      </div>
+      <hr>
+
+      <div id="day3">
+        <h2 id="4/10"> 4/10</h2>
+        <h3>Good Song I Listened To</h3>
+        <figure>
+            <figcaption>Listen to this!:</figcaption>
+            <audio controls src="assets/ChugJug.mp3">
+                  Your browser does not support the
+                  <code>audio</code> element.
+          </audio>
+        </figure>
+        <details>
+            <summary>Disclaimer</summary>
+            I don't actually like this song.
+        </details>
+        <h3>Funny Video I Watched</h3>
+        <video controls width="250">
+              <source src="assets/DaBaby.mp4" type="video/mp4">
+              Sorry, your browser doesn't support embedded videos.
+        </video>
+      </div>
       
     </main>
     <hr />
+
     <footer>
       <h3>Add Another Journal Entry</h3>
       <form onsubmit="alert('Done!')">
@@ -123,6 +175,14 @@
       </form>
       <br/>
       <div>Made by Michael Mao</div>
+
+      <button id="hoverbutton">
+        hover over me :)
+      </button>
+      <button id="activebutton">
+        hold me ;)
+      </button>
     </footer>
+
   </body>
 </html>
