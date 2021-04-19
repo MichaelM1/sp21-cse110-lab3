@@ -1,13 +1,11 @@
 /* CSS file */
-
-body {
-
-    background-color:rgb(112,128,124);
+*{
+    background-color: rgb(119, 118, 121);
     color:#fff;
 }
 
 @media only screen and (max-width:600px){
-        body {
+        * {
 
         background-color:rgb(21, 128, 101);
         color:#ff0;
@@ -115,4 +113,29 @@ footer > #hoverbutton:hover{
 footer > #activebutton:active{
     color:red;
     background-color: black;
+}
+
+ul[type="A"] {
+    list-style-type: lower-alpha;
+    background: rgb(80, 86, 182);
+}
+
+footer > #hoverbutton, #activebutton {
+    color:rgb(108, 232, 236);
+}
+
+#chore div{
+    color:rgb(255, 98, 195);
+}
+
+div ~ label {
+    color:black;
+}
+
+#day2 > div.grid-container{
+    background-color: chartreuse;
+}
+
+#ulday1 > li:first-of-type + li{
+    color: red;
 }

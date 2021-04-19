@@ -36,7 +36,7 @@
       </div>
       <h3>Contents</h3>
       <nav>
-        <ul>
+        <ul type="A">
           <li><a href="#4/8">4/8</a></li>
           <li><a href="#4/9">4/9</a></li>
           <li><a href="#4/10">4/10</a></li>
@@ -57,7 +57,7 @@
         <h2 id="4/8">4/8</h2>
         <section>
           <h3>Highlights of the Day</h3>
-          <ul>
+          <ul id="ulday1">
               <li> Ate pancakes, my <i>favorite</i> food</li>
               <li> Called my friends</li>
               <li> Got an A on a Lab</li>
@@ -153,6 +153,7 @@
             <option value="Okay"></option>
             <option value="Good"></option>
         </datalist><br/>
+
         <label for="workout">What did you workout:</label>
         <select name="work-out" id="workout">
             <option value="">--Please choose an option--</option>
@@ -162,6 +163,8 @@
             <option value="bike">Bike</option>
             <option value="weights">Weights</option>
         </select><br/>  
+        
+        <div id="chore">
         <div> Daily Chore Checkbox</div>
         <input type="checkbox" id="dishes" name="dishes" value="Dishes">
         <label for="dishes"> I washed the dishes</label><br/>
@@ -169,6 +172,7 @@
         <label for="cook"> I cooked dinner</label><br/>
         <input type="checkbox" id="feed" name="feed" value="Feed">
         <label for="feed"> I fed the cats</label><br/>
+        </div>
         <br/>
         <input type="text" placeholder="Enter Email Address" />
         <button>Submit</button>
